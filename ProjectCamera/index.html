@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Capture and Edit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Photo Booth</h1>
+    <div class="camera">
+      <video id="video" autoplay></video>
+      <button id="capture">Capture</button>
+    </div>
+    <div class="stickers">
+        <button id="add-heart">Add Heart</button>
+        <button id="add-animal-filter">Add Animal Filter</button>
+      </div>
+      <div id="sticker-container"></div>
+    <canvas id="canvas"></canvas>
+    <div class="filters">
+      <button class="filter-btn" data-filter="grayscale(100%)">Grayscale</button>
+      <button class="filter-btn" data-filter="sepia(100%)">Sepia</button>
+      <button class="filter-btn" data-filter="invert(100%)">Invert</button>
+      <button class="filter-btn" data-filter="none">None</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

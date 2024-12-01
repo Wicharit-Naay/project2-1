@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .camera, canvas {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  video, canvas {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1em;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filters {
+    margin-top: 10px;
+  }
+  
+  .filter-btn {
+    background-color: #6c757d;
+  }
+  
+  .filter-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .stickers {
+    margin: 10px 0;
+  }
+  
+  #sticker-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .heart, .animal {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: cover;
+    pointer-events: none;
+  }
+  
+  .heart {
+    background-image: url('/Users/wicharitroycamleu/Downloads/heart.png'); /* ไอคอนหัวใจ */
+  }
+  
+  .animal {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Cat_icon_black.svg'); /* ไอคอนฟิลเตอร์สัตว์ */
+  }
